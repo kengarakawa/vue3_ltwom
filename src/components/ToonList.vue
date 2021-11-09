@@ -8,7 +8,7 @@
         </div>
         <div class="mb-3">
           ArcheType :
-          <ArcheTypeCombo name="archetype" v-model="options.archetype"/>
+          <ArcheTypeCombo name="archetype" v-model="options.archetype" :options="checkingOptions"/>
         </div>
         <div class="mb-3">
           Region :
@@ -67,7 +67,7 @@ export default {
   data() {
      return {
          options : {
-             archetype : 'Attacker' , 
+             archetype : 'Support' , 
              region : '' ,
              keyword : '' , 
              what : 'Forth Item' 
@@ -78,7 +78,12 @@ export default {
              { text: 'Third Item' , value : 'Third Item' } , 
              { text: 'Forth Item' , value : 'Forth Item' } , 
              { text: 'Fifth Item' , value : 'Fifth Item' } , 
-         ]
+         ] ,
+         checkingOptions : {
+           'Defender' : 'Da Defender' , 
+           'Support' : 'Da Support' , 
+           'Attacker' : 'Da Attacker' , 
+         }
      } 
   }, 
   methods: {

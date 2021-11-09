@@ -1,11 +1,15 @@
 <template>
-  <div>
-    <span>{{ compName || "" }} {{ value || "" }}</span>
-    <select v-model="model">
-      <option value="">Any</option>
-      <option value="Attacker">Attacker</option>
-      <option value="Defender">Defender</option>
-      <option value="Support">Support</option>
+  <div class="d-inline">
+    <select @change="changeSelection($event)">
+      <option v-if="withAny" value="">Any</option>
+      <option
+        v-for="(opt, key) in theOptions"
+        :value="key"
+        :key="key"
+        :selected="key == modelValue"
+      >
+        {{ opt }}
+      </option>
     </select>
   </div>
 </template>
@@ -13,36 +17,30 @@
 <script>
 export default {
   name: "ArcheTypeCombo",
-  props: ["value", "default", "name", "optional"],
-    model: {
-      get() {
-        console.log(" Get being called()")
-        console.log(`returning ${this.value} `)
-        return this.value
-      },
-      set(value) {
-        console.log(`Set being called ${value}  `)
-        this.$emit("input", value)
-      },
+  props: ["modelValue", "options", "optional"],
+  emits: ["update:modelValue"],
+  computed: {
+    theOptions() {
+      return this.options ?? this.defaultOptions
     },
+  },
 
   data() {
     return {
-      compName: "",
       withAny: true,
+      defaultOptions: {
+        Attacker: "Attacker",
+        Defender: "Defender",
+        Support: "Support",
+      },
     }
   },
   mounted() {
-    this.compName = this.name || 'XXX'
-    this.withAny = this.optional || false 
-    console.log(this.optional)
+    this.withAny = this.optional == undefined ? true : this.optional
   },
   methods: {
-    _handleInput(event) {
-      console.log("event being called")
-      console.log(`returning ${event.target.value}`)
-      console.log(this)
-      this.$emit("input", event.target.value)
+    changeSelection(event) {
+      this.$emit("update:modelValue", event.target.value)
     },
   },
 }
