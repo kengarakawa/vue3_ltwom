@@ -1,5 +1,5 @@
 <template>
-  <div class="container vh-100 min-vh-100">
+  <div class="container min-vh-100">
     <div class="row">
       <h2>Tune Ups</h2>
     </div>
@@ -19,6 +19,14 @@
       </div> -->
   </div>
 </template>
+
+<style>
+h2 {
+  font-family: 'riffic';
+
+}
+</style>
+
 
 <script>
 import ToonList from "@/components/ToonList.vue"

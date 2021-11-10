@@ -1,13 +1,9 @@
 <template>
   <div>
-    <div class="p-2 m-2 card col-11">
+    <div class="p-2 m-2 card col-12">
       {{ getResources }}
 
-      <div v-if="false">
-        {{ toon }}
-        {{ resources }}
-      </div>
-
+      
       <div class="table-responsive">
         <!-- TuneUpResourceTable :resourcesList="resources" /> --->
         <table class="table table-condensed table-bordered resources">
@@ -179,8 +175,9 @@ export default {
           continue
         }
         let out = showAsIcon
-          ? `${resGroup[key]} x ${getResourceIcon(key)}`
-          : `${resGroup[key]} x ${key}`
+                    ? `${this._long(resGroup[key])} x ${getResourceIcon(key)}`
+          : `${this._long(resGroup[key])} x ${key}`
+
         returnText.push(out)
       }
 
