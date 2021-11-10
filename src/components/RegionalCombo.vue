@@ -29,7 +29,7 @@ export default {
     return {
       withAny: true,
       defaultOptions: {
-        Avaloony: "Avalooney",
+        Avalooney: "Avalooney",
         City: "City",
         Desert: "Desert",
         Farm: "Farm",

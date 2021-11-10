@@ -1,0 +1,499 @@
+{
+    "tuneups": [
+        {
+            "level": 2,
+            "gold": 30,
+            "common_dynamite": 2
+
+        },
+        {
+            "level": 3,
+            "gold": 70,
+            "common_anvil": 2
+
+        },
+        {
+            "level": 4,
+            "gold": 125,
+            "common_dynamite": 4,
+            "common_regional": 1
+
+        },
+        {
+            "level": 5,
+            "gold": 250,
+            "common_anvil": 3,
+            "common_regional": 3
+
+        },
+        {
+            "level": 6,
+            "gold": 380,
+            "common_dynamite": 6,
+            "common_regional": 2,
+            "fine_regional": 1
+
+        },
+        {
+            "level": 7,
+            "gold": 630,
+            "common_anvil": 4,
+            "common_regional": 3
+        },
+        {
+            "level": 8,
+            "gold": 945,
+            "fine_anvil": 1,
+            "common_dynamite": 10,
+            "common_regional": 4,
+            "superior_regional": 1
+
+        },
+        {
+            "level": 9,
+            "gold": 1135 , 
+            "common_anvil": 5,
+            "fine_dynamite": 1,
+            "common_regional": 5            
+        },
+        {
+            "level": 10,
+            "gold": 1260 , 
+            "fine_anvil": 2,
+            "fine_dynamite": 2,
+            "common_regional": 5            
+        },
+        {
+            "level": 11,
+            "gold": 1765 , 
+            "common_anvil": 6,
+            "common_booster": 3,
+            "fine_regional": 2 , 
+            "superior_regional" : 3
+        },
+        {
+            "level": 12,
+            "gold": 2270 ,             
+            "fine_dynamite": 4,
+            "common_booster" : 5,
+            "common_regional": 6            
+        },
+        {
+            "level": 13,
+            "gold": 2290, 
+            "common_anvil": 8,
+            "common_dynamite": 16,
+            "common_booster" : 7,
+            "fine_regional": 3            
+        },
+        {
+            "level": 14,
+            "gold": 3400, 
+            "fine_anvil": 4,
+            "fine_dynamite": 6,
+            "common_booster" : 9,
+            "common_regional": 8 ,
+            "superior_regional" : 4
+        },
+        {
+            "level": 15,
+            "gold": 4410, 
+            "common_anvil": 10,
+            "common_dynamite": 19,
+            "superior_dynamite": 1,
+            "common_booster" : 12,
+            "fine_regional": 4            
+        },
+        {
+            "level": 16,
+            "gold": 4790, 
+            "fine_anvil": 5,
+            "fine_dynamite": 8,
+            "common_booster" : 15,
+            "common_regional": 10, 
+            "fine_regional": 5            
+        },
+        {
+            "level": 17,
+            "gold": 5170, 
+            "common_anvil": 12,
+            "common_dynamite": 22,
+            "superior_dynamite": 2,
+            "common_booster" : 18,
+            "fine_regional": 6,
+            "superior_regional":6            
+        },
+        {
+            "level": 18,
+            "gold": 5800, 
+            "fine_anvil": 6,
+            "fine_dynamite": 10,
+            "common_booster" : 20,
+            "common_regional": 14
+        },
+        {
+            "level": 19,
+            "gold": 6300, 
+            "common_anvil": 14,
+            "common_dynamite": 25,
+            "superior_dynamite": 4, 
+            "common_booster" : 22,
+            "fine_regional": 7            
+        },
+        {
+            "level": 20,
+            "gold": 6680, 
+            "fine_anvil": 9,
+            "fine_dynamite": 12,
+            "common_booster" : 24,
+            "fine_booster": 5, 
+            "common_regional": 25, 
+            "superior_regional": 10            
+        },
+        {
+            "level": 21,
+            "gold": 7190, 
+            "common_anvil": 16,
+            "common_dynamite": 25,
+            "superior_dynamite": 6,
+            "common_booster" : 26,
+            "fine_regional": 10 ,
+            "special_material" : 1  
+        },
+        {
+            "level": 22,
+            "gold": 7810, 
+            "fine_anvil": 12,
+            "fine_dynamite": 15,
+            "common_booster" : 28,
+            "fine_booster": 7, 
+            "common_regional": 35, 
+            "superior_regional": 10 ,
+            "special_material" : 1             
+        },
+        {
+            "level": 23,
+            "gold": 8320, 
+            "common_anvil": 18,
+            "common_dynamite": 30,
+            "superior_dynamite": 8,
+            "common_booster" : 30,
+            "fine_regional": 15, 
+            "superior_regional": 15 ,
+            "special_material" : 1              
+        },
+        {
+            "level": 24,
+            "gold": 9000, 
+            "fine_anvil": 915,
+            "fine_dynamite": 20,
+            "common_booster" : 30,
+            "fine_booster": 10, 
+            "common_regional": 50, 
+            "special_material": 1 
+        },
+        {
+            "level": 25,
+            "gold": 13000, 
+            "common_anvil": 21,
+            "common_dynamite": 30,
+            "superior_dynamite":10 , 
+            "common_booster" : 30,
+            "fine_regional": 25,
+            "special_material":1 ,
+            "formular": 1  
+        },
+        {
+            "level": 26,
+            "gold": 15000, 
+            "fine_anvil": 20,
+            "fine_dynamite": 25,
+            "common_booster" : 30,
+            "fine_booster" : 13,
+            "superior_regional": 20,
+            "special_material":2 ,
+            "formular": 3  
+        } ,
+        {
+            "level": 27,
+            "gold": 17000, 
+            "common_anvil": 25,
+            "common_dynamite": 40,
+            "common_booster" : 35,
+            "common_regional" : 75, 
+            "special_material":2 ,
+            "formular": 5  
+        },
+        {
+            "level": 28,
+            "gold": 19000, 
+            "fine_anvil": 25,
+            "fine_dynamite": 30,
+            "common_booster" : 35,
+            "fine_booster" : 16,
+            "fine_regional": 40,
+            "special_material":3 ,
+            "formular": 6  
+        } ,
+        {
+            "level": 29,
+            "gold": 22000, 
+            "common_anvil": 30,
+            "common_dynamite": 50,
+            "superior_dynamite":12 , 
+            "common_booster" : 35,
+            "superior_regional": 25,
+            "special_material":3 ,
+            "formular": 7  
+        },
+        {
+            "level": 30,
+            "gold": 25000, 
+            "fine_anvil": 30,
+            "fine_dynamite": 35,
+            "common_booster" : 40,
+            "fine_booster" : 20,
+            "common_regional": 100,
+            "special_material":5 ,
+            "formular": 8  
+        } ,
+        {
+            "level": 31,
+            "gold": 30000, 
+            "common_anvil": 35,
+            "common_dynamite": 60,
+            "fine_booster" : 35,
+            "fine_regional": 50,
+            "special_material":5 ,
+            "secret_stuff" : 225 ,
+            "atom" : {
+                "common" : 1200 , 
+                "rare" : 1000 ,
+                "epic" : 700 , 
+                "legendary" : 500
+            }
+        },
+        {
+            "level": 32,
+            "gold": 35000, 
+            "fine_anvil": 35,
+            "fine_dynamite": 60,
+            "common_booster" : 50,
+            "superior_regional": 30,
+            "secret_stuff" : 255 ,
+            "formular" : 8 , 
+            "atom" : {
+                "common" : 1800 , 
+                "rare" : 1500 ,
+                "epic" : 1100 , 
+                "legendary" : 750
+            }
+        },
+        {
+            "level": 33,
+            "gold": 40000, 
+            "common_anvil": 40,
+            "superior_dynamite": 15,
+            "fine_booster" : 40,
+            "common_regional": 125,
+            "secret_stuff" : 250 ,
+            "atom" : {
+                "common" : 2400 , 
+                "rare" : 2000 ,
+                "epic" : 1500 , 
+                "legendary" : 1000
+            }
+        },
+        {
+            "level": 34,
+            "gold": 45000, 
+            "fine_anvil": 40,
+            "common_dynamite": 75,
+            "common_booster" : 55,
+            "fine_regional": 60,
+            "secret_stuff" : 300 ,
+            "formular" : 8 , 
+            "atom" : {
+                "common" : 3000 , 
+                "rare" : 2500 ,
+                "epic" : 1900 , 
+                "legendary" : 1250
+            }
+        },
+        {
+            "level": 35,
+            "gold": 50000, 
+            "common_anvil": 45,
+            "fine_dynamite": 45,
+            "fine_booster" : 45,
+            "superior_regional": 35,
+            "special_material":6 ,
+            "secret_stuff" : 325 ,
+            "atom" : {
+                "common" : 3600 , 
+                "rare" : 3000 ,
+                "epic" : 2300 , 
+                "legendary" : 1500
+            }
+        },
+        {
+            "level": 36,
+            "gold": 60000, 
+            "fine_anvil": 45,
+            "common_dynamite": 80,
+            "superior_dynamite": 20,
+            "common_booster" : 60,
+            "secret_stuff" : 350 ,
+            "formular" : 9 , 
+            "atom" : {
+                "common" : 4200 , 
+                "rare" : 3500 ,
+                "epic" : 2700 , 
+                "legendary" : 1750
+            }
+        },
+        {
+            "level": 37,
+            "gold": 70000, 
+            "common_anvil": 50,
+            "fine_dynamite": 50,
+            "fine_booster" : 50,
+            "common_regional": 150,
+            "special_material":6 ,
+            "secret_stuff" : 375 ,
+            "atom" : {
+                "common" : 4800 , 
+                "rare" : 4000 ,
+                "epic" : 3100 , 
+                "legendary" : 2000
+            }
+        } , 
+        {
+            "level": 38,
+            "gold": 80000, 
+            "fine_anvil": 50,
+            "common_dynamite": 95,
+            "common_booster" : 65,
+            "fine_regional" : 70 , 
+            "secret_stuff" : 400 ,
+            "formular" : 9 , 
+            "atom" : {
+                "common" : 5400 , 
+                "rare" : 4500 ,
+                "epic" : 3500 , 
+                "legendary" : 2250
+            }
+        },
+        {
+            "level": 39,
+            "gold": 90000, 
+            "common_anvil": 60,
+            "superior_dynamite": 25,
+            "fine_booster" : 55,
+            "superior_regional": 40,
+            "special_material":7 ,
+            "secret_stuff" : 425 ,
+            "atom" : {
+                "common" : 6000 , 
+                "rare" : 5000 ,
+                "epic" : 3900 , 
+                "legendary" : 2500
+            }
+        } , 
+        {
+            "level": 40,
+            "gold": 100000, 
+            "fine_anvil": 55,
+            "fine_dynamite": 55,
+            "common_booster" : 70,
+            "secret_stuff" : 450 ,
+            "formular" : 9 , 
+            "atom" : {
+                "common" : 6600 , 
+                "rare" : 6000 ,
+                "epic" : 4300 , 
+                "legendary" : 2750
+            }
+        },
+        {
+            "level": 41,
+            "gold": 110000, 
+            "common_anvil": 75,
+            "common_dynamite": 110,
+            "fine_booster" : 60,
+            "common_regional": 175,
+            "special_material":7 ,
+            "secret_stuff" : 475 ,
+            "atom" : {
+                "common" : 7200 , 
+                "rare" : 6500 ,
+                "epic" : 4700 , 
+                "legendary" : 3000
+            }
+        } , 
+        {
+            "level": 42,
+            "gold": 120000, 
+            "fine_anvil": 60,
+            "superior_dynamite": 30,
+            "common_booster" : 80,
+            "fine_regional" : 80 , 
+            "secret_stuff" : 500 ,
+            "formular" : 10 , 
+            "atom" : {
+                "common" : 7800 , 
+                "rare" : 6500 ,
+                "epic" : 5100 , 
+                "legendary" : 3250
+            }
+        },
+        {
+            "level": 43,
+            "gold": 130000, 
+            "common_anvil": 90,
+            "fine_dynamite": 60,
+            "fine_booster" : 65,
+            "superior_regional": 50,
+            "special_material":8 ,
+            "secret_stuff" : 525 ,
+            "atom" : {
+                "common" : 8400 , 
+                "rare" : 7000 ,
+                "epic" : 5500 , 
+                "legendary" : 3500
+            }
+        } , 
+        {
+            "level": 44,
+            "gold": 150000, 
+            "fine_anvil": 65,
+            "common_dynamite": 125,
+            "superior_dynamite": 35,
+            "common_booster" : 90,
+            "secret_stuff" : 550 ,
+            "formular" : 10 , 
+            "atom" : {
+                "common" : 9000 , 
+                "rare" : 7500 ,
+                "epic" : 5900 , 
+                "legendary" : 3750
+            }
+        },
+        {
+            "level": 45,
+            "gold": 175000, 
+            "common_anvil": 105,
+            "fine_dynamite": 65,
+            "fine_booster" : 70,
+            "common_regional": 200,
+            "special_material":8 ,
+            "secret_stuff" : 575 ,
+            "atom" : {
+                "common" : 9600 , 
+                "rare" : 8000 ,
+                "epic" : 6300 , 
+                "legendary" : 4000
+            }
+        }  
+    ]
+} 
