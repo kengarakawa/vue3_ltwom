@@ -1,6 +1,6 @@
 <template>
   <div class="d-inline">
-    <select @change="changeSelection($event)">
+    <select @change="changeSelection($event)"  class="form-control">
       <option v-if="withAny" value="">Any</option>
       <option
         v-for="(opt, key) in theOptions"
@@ -18,7 +18,7 @@
 export default {
   name: "ArcheTypeCombo",
   props: ["modelValue", "options", "optional"],
-  emits: ["update:modelValue"],
+  emits: ["update:modelValue" , "onchange"],
   computed: {
     theOptions() {
       return this.options ?? this.defaultOptions
@@ -41,6 +41,9 @@ export default {
   methods: {
     changeSelection(event) {
       this.$emit("update:modelValue", event.target.value)
+      this.$emit("onchange")
+      console.log('emitting onchange')
+      
     },
   },
 }

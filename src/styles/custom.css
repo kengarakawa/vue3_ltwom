@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'riffic';   
+    src: url('/assets/fonts/RifficFree-Bold.ttf') format('truetype');
+}  
+
+.resource-icon {
+    width: 30px; 
+    height: 30px;
+}
+
+body {
+    background-color:#013146
+}

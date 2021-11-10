@@ -10,6 +10,8 @@ import store from "./store"
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue-3/dist/bootstrap-vue-3.css'
 
+import './styles/custom.css'
+
 
 createApp(App)
   .use(store)
