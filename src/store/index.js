@@ -36,14 +36,20 @@ export default createStore({
         return 
       }
       console.log('mutation , setTuneUpLevel ')
-      console.log(index)
-      console.log(currentTuneUp)
-      console.log(preferredTuneUp)
-      console.log(toonName)
       
       state.selectedToons[index].currentTuneUp = currentTuneUp
       state.selectedToons[index].preferredTuneUp = preferredTuneUp
       
+    } , 
+    setSelectionCalculatedResources: function(state , {toonName , resources}) {
+      let index = state.selectedToons.findIndex( toon => toon.name == toonName) 
+      
+      if(index < 0) {
+        console.warn('element not found')
+        return 
+      }
+      
+      state.selectedToons[index].resources = resources 
     }
   },
   actions: {
@@ -52,7 +58,7 @@ export default createStore({
       
       toon.isHidden = false;
       toon.currentTuneUp = 1
-      toon.preferredTuneUp = 3;
+      toon.preferredTuneUp = 30;
       toon.resources = [] 
       console.log('committing addToon action')
       context.commit('addToon' , toon)      
@@ -65,6 +71,11 @@ export default createStore({
     
     updateTuneUpLevels: function(context , {toonName, currentTuneUp, preferredTuneUp}) {
       context.commit('setTuneUpLevels' , {toonName, currentTuneUp, preferredTuneUp})  
+    } , 
+    
+    
+    updateSelection: function(context , {toonName , resources}) {
+      context.commit('setSelectionCalculatedResources' , {toonName, resources })  
     }
     
   },

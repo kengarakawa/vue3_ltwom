@@ -2,34 +2,42 @@
   <div class="d-flex">
     <!-- filter options --->
 
-    <div class="p-3 col-3">
-      <div class="mb-3">
-        <h4>Toon List ({{selectedToons.length}})</h4>
+    <div class="px-1 py-3 col-3">
+      <div class="mb-3 row">
+        <h4>Toon List ({{ selectedToons.length }})</h4>
       </div>
-      <div class="mb-3">
-        ArcheType :
-        <ArcheTypeCombo v-model="options.archetype" />
+      <div class="mb-2 row">
+        <div class="col-6">ArcheType :</div>
+        <div class="col-6">
+          <ArcheTypeCombo v-model="options.archetype" />
+        </div>
       </div>
-      <div class="mb-3">
-        Region :
-        <RegionalCombo v-model="options.region" />
+      <div class="mb-2 row">
+        <div class="col-6">Region :</div>
+        <div class="col-6">
+          <RegionalCombo v-model="options.region" />
+        </div>
       </div>
-      <div class="mb-3">
-        <input
-          class="my-3 form-control"
-          type="text"
-          name="keyword"
-          placeholder="keyword"
-          id="toonListKeyword"
-          v-model="options.keyword"
-          @input="filterToon"
-        />
+      <div class="mb-2 row">
+        <div class="col-12">
+          <input
+            class=" form-control"
+            type="text"
+            name="keyword"
+            placeholder="keyword"
+            id="toonListKeyword"
+            v-model="options.keyword"
+            @input="filterToon"
+          />
+        </div>
       </div>
     </div>
 
     <!-- result list --->
-    <div class="p-3 flex-grow-1 bg-primary" style="height:200px;overflow:scroll;overflow-x:hidden">
-
+    <div
+      class="p-3 flex-grow-1 bg-primary"
+      style="height: 200px; overflow: scroll; overflow-x: hidden"
+    >
       <ToonIcon
         v-for="(toon, key) in selectedToons"
         :key="key"
@@ -96,7 +104,6 @@ export default {
       this.selectedToons = this.allToons.filter((toon) => {
         let toonName = toon.name.toLowerCase()
 
-
         return (
           (keyword == "" || toonName.indexOf(this.options.keyword) >= 0) &&
           (this.options.archetype == "" ||
@@ -107,12 +114,12 @@ export default {
 
       console.log(` filter count: ${this.filterToon.length}`)
     },
-    
+
     addToon(toon) {
-      console.log('adding ')
+      console.log("adding ")
       console.log(toon)
-      this.$store.dispatch('addToon', toon) 
-    }
+      this.$store.dispatch("addToon", toon)
+    },
   },
 }
 </script>

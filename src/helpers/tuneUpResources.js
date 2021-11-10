@@ -407,26 +407,29 @@ module.exports = {
         file = "SM_road_runner.webp"
         title = "Bird Seed"
         break
+      case "sm_sam_sheepdog":
+        file = "SM_sam_sheepdog.webp"
+        title = "Red Punching Clokc"
+        break
       case "sm_speedy_gonzales":
         file = "SM_speedy_gonzales.webp"
         title = "Cheese"
         break
-        case "sm_sylvester":
-          file = "SM_sylvester.webp"
-          title = "Bird Cage"
-          break
-          
+      case "sm_sylvester":
+        file = "SM_sylvester.webp"
+        title = "Bird Cage"
+        break
+
       case "sm_sylvester_jr":
         file = "SM_sylvester_jr.webp"
         title = "Paper Bag"
         break
 
-
       case "sm_tasmanian_she_devil":
         file = "SM_tasmanian_she_devil.png"
         title = "Tasty Meat"
         break
-      
+
       case "sm_taz":
         file = "SM_taz.png"
         title = "Tasty Meat"
@@ -444,7 +447,6 @@ module.exports = {
         file = "SM_toro.webp"
         title = "Nose Ring"
         break
-
 
       case "sm_tweety":
         file = "SM_tweety.webp"

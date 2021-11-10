@@ -1,6 +1,6 @@
 <template>
   <div class="d-inline">
-    <select @change="changeSelection($event)">
+    <select @change="changeSelection($event)"  class="form-control">
       <option v-if="withAny" value="">Any</option>
       <option
         v-for="(opt, key) in theOptions"

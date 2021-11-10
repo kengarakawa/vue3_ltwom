@@ -7,12 +7,12 @@
 
 <style>
     .toonIcon {
-        width: 75px;
-        height:75px;
+        width: 50px;
+        height:50px;
         background:#CCFF33;
         overflow:hidden ;
         display:inline-block;
-        border-radius:33px ;
+        border-radius:25px ;
         cursor:pointer;
     }
 </style>

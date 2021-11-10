@@ -1,17 +1,22 @@
 <template>
-  <div class="container">
-    <h2>Tune Ups</h2>
+  <div class="container vh-100 min-vh-100">
+    <div class="row">
+      <h2>Tune Ups</h2>
+    </div>
 
-    <ToonList />
-
-    <div class="d-flex">
-      <div class="flex-grow-1">
-        <SelectedToons />
+    <div class="row">
+      <div class="col-12">
+        <ToonList />
       </div>
-      <!-- <div class="flex-grow-1">
+    </div>
+    <div class="row">
+          <SelectedToons />
+        
+    </div>
+
+    <!-- <div class="flex-grow-1">
         <TuneUpResources />
       </div> -->
-    </div>
   </div>
 </template>
 
@@ -24,8 +29,8 @@ export default {
   name: "TuneUps",
   components: {
     ToonList,
-    SelectedToons,     
-   //  TuneUpResources
+    SelectedToons,
+    //  TuneUpResources
   },
 }
 </script>

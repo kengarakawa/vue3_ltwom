@@ -1,13 +1,16 @@
 <template>
   <div>
-    <div class="p-3 m-2 card flex-grow-1">
+    <div class="p-2 m-2 card col-11">
       {{ getResources }}
-      <h3>TuneUpResources</h3>
-      {{ toon }}
-      {{ resources }}
+
+      <div v-if="false">
+        {{ toon }}
+        {{ resources }}
+      </div>
 
       <div class="table-responsive">
-        <table class="table table-sm table-bordered resources">
+        <!-- TuneUpResourceTable :resourcesList="resources" /> --->
+        <table class="table table-condensed table-bordered resources">
           <thead>
             <tr>
               <th rowspan="2">Gold</th>
@@ -32,10 +35,10 @@
               <th>Cmn.</th>
               <th>Fine</th>
 
-              <th>Beta</th>
-              <th>Alpha</th>
-              <th>Omega</th>
-              <th>Infn.</th>
+              <th>β</th>
+              <th>α</th>
+              <th>ω</th>
+              <th>∞</th>
             </tr>
           </thead>
           <tbody>
@@ -47,46 +50,44 @@
               <td>{{ _long(resources.common_anvil) }}</td>
               <td>{{ _long(resources.fine_anvil) }}</td>
               <td>
-                  <div v-html="_group(_filter(resources.RG, 'RG_common'))" />
+                <div v-html="_group(_filter(resources.RG, 'RG_common'))" />
               </td>
               <td>
-                  <div v-html="_group(_filter(resources.RG, 'RG_fine'))" />
+                <div v-html="_group(_filter(resources.RG, 'RG_fine'))" />
               </td>
               <td>
-                  <div v-html="_group(_filter(resources.RG, 'RG_superior'))" />
+                <div v-html="_group(_filter(resources.RG, 'RG_superior'))" />
               </td>
-              
+
               <td>
-                  <div v-html="_group(_filter(resources.BO, 'BO_' , '_fine_'))" />
-              </td>
-              <td>
-                  <div v-html="_group(_filter(resources.BO, 'BO_fine' ))" />
-              </td>
-                            
-              
-              <td>
-                  <div v-html="_group(resources.SM)" />
-              </td>
-              
-              <td>
-                  <div v-html="_group(_filter(resources.FM, 'FM_common' ))" />
+                <div v-html="_group(_filter(resources.BO, 'BO_', '_fine_'))" />
               </td>
               <td>
-                  <div v-html="_group(_filter(resources.FM, 'FM_rare' ))" />
+                <div v-html="_group(_filter(resources.BO, 'BO_fine'))" />
+              </td>
+
+              <td>
+                <div v-html="_group(resources.SM)" />
+              </td>
+
+              <td>
+                <div v-html="_group(_filter(resources.FM, 'FM_common'))" />
               </td>
               <td>
-                  <div v-html="_group(_filter(resources.FM, 'FM_epic' ))" />
+                <div v-html="_group(_filter(resources.FM, 'FM_rare'))" />
               </td>
               <td>
-                  <div v-html="_group(_filter(resources.FM, 'FM_legendary' ))" />
+                <div v-html="_group(_filter(resources.FM, 'FM_epic'))" />
               </td>
-              
+              <td>
+                <div v-html="_group(_filter(resources.FM, 'FM_legendary'))" />
+              </td>
+
               <td>{{ _long(resources.secret_stuff) }}</td>
 
               <td>
-                  <div v-html="_group(resources.AT)" />
+                <div v-html="_group(resources.AT)" />
               </td>
-              
             </tr>
           </tbody>
         </table>
@@ -99,6 +100,11 @@
 table.resources {
   border-collapse: collapse;
 }
+
+.table-condensed {
+  font-size: 12px !important;
+}
+
 table.resources th,
 table.resources td {
   font-size: 8;
@@ -114,8 +120,14 @@ import {
   getRegionalResourceCode,
   getResourceIcon,
 } from "@/helpers/tuneUpResources.js"
+
+// import TuneUpResourceTable from "@/components/TuneUpResourceTable.vue"
+
 export default {
   name: "TuneUpResources",
+  components: {
+    //  TuneUpResourceTable,
+  },
   props: ["toon", "currentTuneUp", "preferredTuneUp", "isHidden"],
   data() {
     return {
@@ -125,14 +137,8 @@ export default {
   },
   mounted() {
     console.log("mounted")
-    console.log(this.toon)
-    console.log(typeof getRegionalResourceCode)
 
     this.toonDetail = this.toon
-
-    let out = getRegionalResourceCode("common_regional", "desert")
-    console.log("me??")
-    console.log(out)
   },
   computed: {
     getResources: function () {
@@ -140,6 +146,7 @@ export default {
       return ""
     },
   },
+  emits: ["update"],
   methods: {
     _long(value, emptyText = "-") {
       if (value == undefined || value.isNaN || value == 0) {
@@ -150,33 +157,20 @@ export default {
     _filter(resGroup, searchText, notContainText = null) {
       let out = {}
       for (let key in resGroup) {
-        console.log("checking: ")
-        console.log(key)
-        console.log(searchText)
-        console.log(key.indexOf(searchText))
         if (key.indexOf(searchText) >= 0) {
-          console.log(notContainText)
           if (notContainText === null || key.indexOf(notContainText) < 0) {
             out[key] = resGroup[key]
-          } else {
-            console.log("case 1")
           }
-        } else {
-          console.log("case 2")
         }
       }
       return out
     },
     _group(resGroup, showAsIcon = true, emptyText = "-") {
-      console.log("wth?")
-      console.log(resGroup)
       if (resGroup === undefined) {
         return emptyText
       }
       let returnText = []
       for (let key in resGroup) {
-        console.log(key)
-
         if (
           resGroup[key] === undefined ||
           isNaN(resGroup[key]) ||
@@ -202,23 +196,7 @@ export default {
 
       let tuneUpMap = this.$store.state.tuneUpResources.tuneups
 
-      console.log(tuneUpMap)
-
       for (let key in Object.keys(tuneUpMap)) {
-        /*if( this.currentTuneUp > parseInt(tuneUpMap[key].level) && this.preferredTuneUp <= parseInt(tuneUpMap[key].level)) {
-                  continue
-              }*/
-
-        // console.log(parseInt(this.currentTuneUp))
-        // console.log(parseInt(tuneUpMap[key].level))
-        // console.log(parseInt(this.preferredTuneUp))
-        // console.log(parseInt(tuneUpMap[key].level))
-        // console.log(
-        //   parseInt(this.currentTuneUp) <= parseInt(tuneUpMap[key].level)
-        // )
-        // console.log(
-        //   parseInt(this.preferredTuneUp) >= parseInt(tuneUpMap[key].level)
-        // )
         if (
           parseInt(tuneUpMap[key].level) <= parseInt(this.currentTuneUp) ||
           parseInt(tuneUpMap[key].level) > parseInt(this.preferredTuneUp)
@@ -227,9 +205,7 @@ export default {
         }
 
         // looping through object
-
         for (let res in tuneUpMap[key]) {
-          console.log(res)
           if (res == "level") {
             continue
           }
@@ -307,6 +283,12 @@ export default {
           }
         }
       } // end level loop
+
+      this.$emit("update", this.resources)
+      this.$store.dispatch("updateSelection", {
+        toonName: this.toon.name,
+        resources: this.resources,
+      })
     },
   },
 }
