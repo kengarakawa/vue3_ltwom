@@ -1,5 +1,5 @@
 <template>
-  <div class="p-0 m-0 container-fluid bg-info">
+  <div class="p-0 m-0 container-fluid result-pane">
     <div v-for="(toon, index) in selectedList" :key="index" class="flex">
       <div class="d-flex g-1">
         <ToonTuneUpCard :toon="toon" @update:modelValue="handleUpdate" />
@@ -12,11 +12,10 @@
       </div>
     </div>
 
-    <div class="d-flex g-1">
+    <div class="d-flex g-1" v-if="selectedList.length > 1">
       <div class="p-3 m-2 shadow-lg flex-d card col-3 bg-warning">
-        <h3>Total Resource ({{ selectedList.length }})</h3>
+        <h3>Total Resource ({{ selectedList.length }})</h3>        
         
-        <div class="bottom-0 align-text-bottom text-end">copyright@2021</div>
       </div>
       <div class="p-2 m-2 card col-9">
         <TuneUpResourceTable :resourcesList="totalResources" />
@@ -29,6 +28,9 @@
 h3 {
   font-family: 'riffic';
   font-size: 18px;
+}
+.result-pane {
+  background-color: #6AA16C;  
 }
 </style>
 

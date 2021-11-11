@@ -167,7 +167,11 @@ export default {
       let resourceList = this.$store.state.selectedToons
 
       for (let i in resourceList) {
-        console.log(i)
+        
+        if(resourceList[i].isHidden) {
+          continue 
+        }
+        
         for (let key in resourceList[i].resources) {
           console.log(key)
           if (

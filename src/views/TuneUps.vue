@@ -10,23 +10,26 @@
       </div>
     </div>
     <div class="row">
-          <SelectedToons />
-        
+      <SelectedToons />
     </div>
-
-    <!-- <div class="flex-grow-1">
-        <TuneUpResources />
-      </div> -->
   </div>
+
+  <footer >
+    <div class="container text-end footer">
+      <span style="font-size: 10px; color: #ffc107">ver 1.0</span>
+    </div>
+  </footer>
 </template>
 
 <style>
 h2 {
-  font-family: 'riffic';
-
+  font-family: "riffic";
+  color: #feae0a;
+}
+.inside {
+  background-color: #0378aa;
 }
 </style>
-
 
 <script>
 import ToonList from "@/components/ToonList.vue"

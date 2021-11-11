@@ -471,4 +471,17 @@ module.exports = {
 
     return `<img src="./assets/images/resources/${file}" title="${title}" class="resource-icon">`
   },
+  
+  
+  
+  getToonIcon(toonName)   {
+    let file = toonName.toLowerCase()
+      .replaceAll(".", "")
+      .replaceAll("'", "")
+      .replaceAll("-", "_")
+      .replaceAll(" ", "_")
+      
+    file += '.webp'
+    return `<img src="./assets/images/toons/${file}" title="${toonName}" class="toon-icon">`
+  }
 }
