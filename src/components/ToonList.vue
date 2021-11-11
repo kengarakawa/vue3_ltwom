@@ -21,7 +21,7 @@
       <div class="mb-2 row">
         <div class="col-12">
           <input
-            class=" form-control"
+            class="form-control"
             type="text"
             name="keyword"
             placeholder="keyword"
@@ -34,10 +34,7 @@
     </div>
 
     <!-- result list --->
-    <div
-      class="p-3 flex-grow-1 bg-primary"
-      style="height: 200px; overflow: scroll; overflow-x: hidden"
-    >
+    <div class="p-3 mb-5 flex-grow-1 toon-list">
       <ToonIcon
         v-for="(toon, key) in selectedToons"
         :key="key"
@@ -51,6 +48,47 @@
     </div>
   </div>
 </template>
+
+<style>
+/* .toon-list::-webkit-scrollbar {
+  display: none;
+}
+.toon-list {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+} */
+.toon-list {
+  scrollbar-color: #d4aa70 #e4e4e4;
+  height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.toon-list::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: #8070d4;
+  border: 6px solid rgba(0, 0, 0, 0.2);
+}
+
+.toon-list::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  border-radius: 100px;
+}
+.toon-list::-webkit-scrollbar-thumb:hover {
+  background-color: #5749d2;
+}
+
+/* New Syntax */
+.toon-list {
+  scrollbar-color: #d4aa70 #e4e4e4;
+  transition: scrollbar-color 0.3s ease-out;
+}
+
+.toon-list:hover {
+  scrollbar-color: #5749d2;
+}
+</style>
 
 <script>
 import ArcheTypeCombo from "@/components/ArcheTypeCombo.vue"
