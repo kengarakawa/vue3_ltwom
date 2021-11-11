@@ -15,7 +15,7 @@
     <div class="d-flex g-1" v-if="selectedList.length > 1">
       <div class="p-3 m-2 shadow-lg flex-d card col-3 bg-warning">
         <h3>Total Resource ({{ selectedList.length }})</h3>        
-        <div class="bottom-0 align-text-bottom text-end">copyright@2021</div>
+        
       </div>
       <div class="p-2 m-2 card col-9">
         <TuneUpResourceTable :resourcesList="totalResources" />

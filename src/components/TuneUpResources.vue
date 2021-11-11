@@ -1,9 +1,8 @@
 <template>
   <div>
-    <div class="p-2 m-2 card col-12">
+    <div class="p-2 m-2 card col-12" :class="{ 'hidden' : toon.isHidden }">
       {{ getResources }}
 
-      
       <div class="table-responsive">
         <!-- TuneUpResourceTable :resourcesList="resources" /> --->
         <table class="table table-condensed table-bordered resources">
@@ -104,6 +103,9 @@ table.resources {
 table.resources th,
 table.resources td {
   font-size: 8;
+}
+.hidden {
+  opacity: 0.5 
 }
 </style>
 

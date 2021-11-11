@@ -47,9 +47,18 @@ export default createStore({
       if(index < 0) {
         console.warn('element not found')
         return 
-      }
-      
+      }      
       state.selectedToons[index].resources = resources 
+    },
+    
+    toggleToon: function(state, toonName) {
+      let index = state.selectedToons.findIndex( toon => toon.name == toonName) 
+      
+      if(index < 0) {
+        console.warn('element not found')
+        return 
+      }      
+      state.selectedToons[index].isHidden = !state.selectedToons[index].isHidden
     }
   },
   actions: {
@@ -76,6 +85,10 @@ export default createStore({
     
     updateSelection: function(context , {toonName , resources}) {
       context.commit('setSelectionCalculatedResources' , {toonName, resources })  
+    }, 
+    
+    toggleToon: function(context , toonName) {
+      context.commit('toggleToon' , toonName)
     }
     
   },

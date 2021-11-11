@@ -3,8 +3,31 @@
     <!-- filter options --->
 
     <div class="px-1 py-3 col-3">
-      <div class="mb-3 row">
-        <h4>Toon List ({{ selectedToons.length }})</h4>
+      <div class="mb-3 d-flex justify-content-between">
+        <div class="highlighted">Toon List ({{ selectedToons.length }})</div>
+        <div >
+          <svg
+          title="reset"
+          alt="reset"
+            class="svg-icon clickable"
+            style="
+              width: 1em;
+              height: 1em;
+              vertical-align: middle;
+              fill: #feae0a;
+              overflow: hidden;
+            "
+            viewBox="0 0 1024 1024"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            
+            @click="resetForm"
+          >
+            <path
+              d="M214.864 440.317l69.471-41.742c20.83-12.516 47.862-5.776 60.377 15.053 12.516 20.83 5.776 47.862-15.053 60.377L137.653 589.374 22.285 397.369c-12.516-20.83-5.776-47.862 15.053-60.378 20.83-12.515 47.862-5.775 60.377 15.054l34.478 57.38c36.81-123.472 126.622-227 249.697-279.243 223.634-94.927 481.893 9.459 576.842 233.144 94.948 223.685-9.365 481.973-232.998 576.9-161.485 68.546-346.059 34.258-472.152-83.359-17.77-16.575-18.738-44.418-2.162-62.188 16.575-17.77 44.418-18.738 62.187-2.163 100.9 94.117 248.546 121.546 377.742 66.705C870.24 783.287 953.688 576.663 877.727 397.71c-75.96-178.953-282.562-262.459-461.452-186.524-100.372 42.605-173.066 127.8-201.411 229.131z"
+            />
+          </svg>
+        </div>
       </div>
       <div class="mb-2 row">
         <div class="col-6">ArcheType :</div>
@@ -88,6 +111,12 @@
 .toon-list:hover {
   scrollbar-color: #5749d2;
 }
+
+.highlighted {
+  font-family: "riffic";
+  font-size: 16px;
+  color: #feae0a;
+}
 </style>
 
 <script>
@@ -128,6 +157,13 @@ export default {
     this.selectedToons = this.allToons = AllToons
   },
   methods: {
+    
+    resetForm() {
+      this.options.keyword = ''
+      this.options.region = ''
+      this.options.archetype = ''
+     
+    }, 
     debugOptions() {
       console.log(this.options)
     },
