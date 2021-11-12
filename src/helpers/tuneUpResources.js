@@ -19,7 +19,7 @@ module.exports = {
     return "FM_" + rarity.toLowerCase() + "_formular"
   },
   getAtomResourceCode(resCode, region) {
-    return "AT_atom_" + region.toLowerCase()
+    return "AT_atom_" + region.toLowerCase().replaceAll(' ', '_')
   },
   getRegionalResourceCode(resCode, region) {
     let prefix = resCode
@@ -275,7 +275,7 @@ module.exports = {
         title = "Town Atom "
         break
       case "at_atom_wb_studios":
-        file = "atom_web_studios.png"
+        file = "atom_wb_studios.png"
         title = "WB Studios Atom "
         break
       // toons
