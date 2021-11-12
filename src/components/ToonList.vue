@@ -5,10 +5,10 @@
     <div class="px-1 py-3 col-3">
       <div class="mb-3 d-flex justify-content-between">
         <div class="highlighted">Toon List ({{ selectedToons.length }})</div>
-        <div >
+        <div>
           <svg
-          title="reset"
-          alt="reset"
+            title="reset"
+            alt="reset"
             class="svg-icon clickable"
             style="
               width: 1em;
@@ -20,7 +20,6 @@
             viewBox="0 0 1024 1024"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
-            
             @click="resetForm"
           >
             <path
@@ -152,18 +151,19 @@ export default {
     "options.region": function () {
       this.filterToon()
     },
+    "options.keyword": function () {
+      this.filterToon()
+    },
   },
   mounted() {
     this.selectedToons = this.allToons = AllToons
   },
   methods: {
-    
     resetForm() {
-      this.options.keyword = ''
-      this.options.region = ''
-      this.options.archetype = ''
-     
-    }, 
+      this.options.keyword = ""
+      this.options.region = ""
+      this.options.archetype = ""
+    },
     debugOptions() {
       console.log(this.options)
     },
