@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "riffic";
+  src: url("/assets/fonts/RifficFree-Bold.ttf") format("truetype");
+}
+
+.resource-icon {
+  width: 30px;
+  height: 30px;
+}
+
+body {
+  background-color: #013146;
+  background-image: url("/assets/images/forest.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+div {
+  color: #45626b;
+}
+div.card {
+  color: #333333;
+}

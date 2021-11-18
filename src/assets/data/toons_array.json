@@ -1,0 +1,1621 @@
+[{
+        "name": "Alchemist Frankenbeans",
+        "base": "Dr. Frankenbeans",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Avalooney",
+        "desc": "A man of science in a world of magic."
+    }, {
+        "name": "Anubis K-9",
+        "base": "K-9",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "Space",
+        "desc": "The guardian of the graves, watching over all to determine those worthy of ascending to heavenly life. Can be persuaded with belly rubs."
+    }, {
+        "name": "Apprentice Hugo",
+        "base": "Hugo",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Avalooney",
+        "desc": "Hugo just has to be on his best behavior and not break anything for the whole week and they'll teach him how to pull a rabbit out of a hat."
+    }, {
+        "name": "Archon Elmer",
+        "base": "Elmer Fudd",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Space",
+        "desc": "With alien technology, this destructive defender finally finds that wascally wabbit, and the Earth, within his grasp."
+    }, {
+        "name": "Astronaut Hector",
+        "base": "Hector",
+        "rarity": "Common",
+        "type": "Attacker",
+        "region": "Space",
+        "desc": "A strong attacker able to tear down enemies who are taunting and remove their positive effects!"
+    }, {
+        "name": "Astronaut Sylvester",
+        "base": "Sylvester",
+        "rarity": "Common",
+        "type": "Defender",
+        "region": "Space",
+        "desc": "Turns out a cat in 0G is an excellent tank, able to dodge and steal his enemies positive effects!"
+    }, {
+        "name": "Athena Petunia",
+        "base": "Petunia Pig",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Summit",
+        "desc": "The bright-eyed warrior goddess, protectress of cities and defender of the Divine. Too stubborn to let death or defeat take hold of any of her allies."
+    }, {
+        "name": "Barber Bugs",
+        "base": "Bugs Bunny",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "Town",
+        "desc": "Awesome support. Focuses on keeping his team alive by constantly healing them and clearing negative effects."
+    }, {
+        "name": "Barkeep Sheepdog",
+        "base": "Sam Sheepdog",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Desert",
+        "desc": "Keep the peace with cocktails that heal allies to full or slow enemies, rousing when enemies crit."
+    }, {
+        "name": "Barnyard Dawg",
+        "base": "Barnyard Dawg",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "Farm",
+        "desc": "Sneaky attacker. Able to hide away from danger and unleash a strong attack on the enemies."
+    }, {
+        "name": "Barrelhawk Henery",
+        "base": "Henery Hawk",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Tasmania",
+        "desc": "Lookout and Navigator of the fleet, guided only by the stars and the neverending desire to taste the so-calledchicken of the sea\".\""
+    }, {
+        "name": "Baseball Bugs",
+        "base": "Bugs Bunny",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Town",
+        "desc": "Left fielder, right fielder, centerfielder, outfielder, shortstop, pitcher and catcher all at once, this Critical Attacker keeps the bases loaded."
+    }, {
+        "name": "Bat-Suit Wile",
+        "base": "Wille E. Coyote",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "City",
+        "desc": "It's not the flight suit Wile needs, but the one he deserves."
+    }, {
+        "name": "Bellboy Daffy",
+        "base": "Daffy Duck",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "Tasmania",
+        "desc": "This staff duck serves his Defender allies, offering amenities like Speed Up, Attack Up, and heals."
+    }, {
+        "name": "Bellboy Gossamer",
+        "base": "Gossamer",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Tasmania",
+        "desc": "This staff monster serves his Attacker allies, offering amenities like Defense Up, Turn Meter, and Taunt."
+    }, {
+        "name": "Big Chungus",
+        "base": "Bugs Bunny",
+        "rarity": "Legendary",
+        "type": "Defender",
+        "region": "Farm",
+        "desc": "Anything and everything."
+    }, {
+        "name": "Black Knight Sam",
+        "base": "Yosemite Sam",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "The Black Knight is able to use his dragon to inflict heavy Damage Over Time on his enemies."
+    }, {
+        "name": "Bugs Bunny",
+        "base": "Bugs Bunny",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Forest",
+        "desc": "A versatile damage dealer with an AoE, selective Stun, and burst of sustain. Loves his buddy Porky Pig."
+    }, {
+        "name": "Bugs the Brave",
+        "base": "Bugs Bunny",
+        "rarity": "Legendary",
+        "type": "Defender",
+        "region": "Avalooney",
+        "desc": "This heroic paladin throws himself in front of enemy attacks, becoming immune to damage when his team needs him."
+    }, {
+        "name": "Bushwacker Sam",
+        "base": "Yosemite Sam",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Tasmania",
+        "desc": "A true wilderness explorer, unmatched in his ability to lead his team after the most dangerous prey. Provided, of course, that his temper doesn't give his position away."
+    }, {
+        "name": "Caesar Leghorn",
+        "base": "Foghorn Leghorn",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Desert",
+        "desc": "Leader of the Empire, one under the Gods. His power absolute, his will divine. Not related to the salad."
+    }, {
+        "name": "Cannonball Coyote",
+        "base": "Wille E. Coyote",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Farm",
+        "desc": "Wile E. has never been one to shy away from gadgets and tools, especially those of the volatile variety. This time, he's only chasing a perfect performance."
+    }, {
+        "name": "Cannoneer Canasta",
+        "base": "Nasty Canasta",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Tasmania",
+        "desc": "Anyone who attempts to Counter this hulking defender is getting dragged into the briny deep."
+    }, {
+        "name": "Captain Bligh",
+        "base": "Bugs Bunny",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Tasmania",
+        "desc": "Look at you! Consorting with Outlaws? Receiving Stat Downs? Disgrace to the Navy! Avast there, you lazy layabouts!"
+    }, {
+        "name": "Chamberlain Porky",
+        "base": "Porky Pig",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "Avalooney",
+        "desc": "A versatile Support serving up heals, Debuff removal, and dynamite-stuffed poultry."
+    }, {
+        "name": "Chauffeur Porky",
+        "base": "Porky Pig",
+        "rarity": "Common",
+        "type": "Support",
+        "region": "City",
+        "desc": "The fastest chauffeur in the city, able to speed up his allies and give them an edge in battle."
+    }, {
+        "name": "Cheerleader Wile E",
+        "base": "Wille E. Coyote",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Town",
+        "desc": "An athlete with a limitless supply of pep. Supports all members of the team with constant boosts and healing. Let's get that bird, team!"
+    }, {
+        "name": "Chef Porky",
+        "base": "Porky Pig",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "Town",
+        "desc": "This hearty cook boosts his team's Max Health and heals proportionally."
+    }, {
+        "name": "Climber Granny",
+        "base": "Granny",
+        "rarity": "Common",
+        "type": "Support",
+        "region": "Summit",
+        "desc": "A geriatric athlete with limited but relentless abilities. She's fitter than you, and knows it."
+    }, {
+        "name": "Concierge Elmer",
+        "base": "Elmer Fudd",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "Tasmania",
+        "desc": "The graceful host of the Hotel Tasmania does his best to make the monstrous and pirate-infested island feel just like home. Mostly for the monsters and pirates."
+    }, {
+        "name": "Conqueror Taz",
+        "base": "Taz",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Desert",
+        "desc": "Mad general of the Roman Empire. A one-man army who will not retreat or even slow down."
+    }, {
+        "name": "Contender Sylvester",
+        "base": "Sylvester",
+        "rarity": "Rare",
+        "type": "Defender",
+        "region": "Town",
+        "desc": "This Defender comes out strong, healing with each hit he takes and when Southpaw connects."
+    }, {
+        "name": "Contraptionist Egghead",
+        "base": "Egghead Jr",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Tasmania",
+        "desc": "Don't be fooled by his size or cute monocled face. If he plans to get you, there is no running or hiding from his traps."
+    }, {
+        "name": "Countess Penelope",
+        "base": "Penelope",
+        "rarity": "Legendary",
+        "type": "Defender",
+        "region": "Avalooney",
+        "desc": "Under all royalty and finesse, Countess Penelope is a skilled swordswoman ready to protect her fellow Aristocrats."
+    }, {
+        "name": "Cowboy Bugs",
+        "base": "Bugs Bunny",
+        "rarity": "Common",
+        "type": "Attacker",
+        "region": "Desert",
+        "desc": "Western attacker. The cowboy is excellent when fighting with desert toons."
+    }, {
+        "name": "Cowboy Sylvester",
+        "base": "Sylvester",
+        "rarity": "Rare",
+        "type": "Defender",
+        "region": "WB Studios",
+        "desc": "Evasive defender. Protects his team by drawing attention to himself and rolling away from danger."
+    }, {
+        "name": "Cowgirl Granny",
+        "base": "Granny",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "WB Studios",
+        "desc": "Support cowgirl. Helps her team by providing a lot of critical chance and counter attack chance."
+    }, {
+        "name": "The Crusher",
+        "base": "The Crusher",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Tasmania",
+        "desc": "A lean, mean, fighting machine. He's the king of the ring, willing to use any means necessary yo get the belt."
+    },
+    {
+        "name": "Cupid Elmer",
+        "base": "Elmer Fudd",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Forest",
+        "desc": "A hunter of hearts who leaves enemies weak-kneed and cleanses all of the past's pain."
+    }, {
+        "name": "Curator Porky",
+        "base": "Porky Pig",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "Tasmania",
+        "desc": "An aggressive utility-Support who both cleanses and inflicts Stun, offering Counter Chance Up."
+    }, {
+        "name": "Daffy Duck",
+        "base": "Daffy Duck",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Forest",
+        "desc": "A critical hit-based scoundrel who sharpens the bills of other Daffies and ignores enemy Defense. Truly dethspicable."
+    }, {
+        "name": "Daffy Hood",
+        "base": "Daffy Duck",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "Robbing the rich and giving it to himself, Daffy Hood excels at stealing buffs and finishing off weakened enemies."
+    }, {
+        "name": "Daffy Miranda",
+        "base": "Daffy Duck",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "City",
+        "desc": "A constant reminder that you shouldn't eat the plastic fruit."
+    }, {
+        "name": "Deckswab Dawg",
+        "base": "Barnyard Dawg",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Tasmania",
+        "desc": "Not the most fashionable, fearsome, or powerful of the pirates you'll find across the seas. And yet, when the pirate kings have destroyed each other in their endless wars, he'll be the one left with all the treasure."
+    }, {
+        "name": "Desperado Dawg",
+        "base": "Barnyard Dawg",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Desert",
+        "desc": "An infamous outlaw who hides his teammates for the perfect ambush."
+    }, {
+        "name": "Devil Dog",
+        "base": "Hector",
+        "rarity": "Rare",
+        "type": "Defender",
+        "region": "Avalooney",
+        "desc": "Too hot to Freeze, Hector's devilish side Debuffs entire enemy teams and annihilates Heal Over Time."
+    }, {
+        "name": "Don Henery",
+        "base": "Henery Hawk",
+        "rarity": "Legendary",
+        "type": "Defender",
+        "region": "City",
+        "desc": "The capo dei capi is here to bring some order to his house of Outlaws. Keep the Don safe and there'll be something in it for you."
+    }, {
+        "name": "Dr. Dawgstein",
+        "base": "Barnyard Dawg",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "WB Studios",
+        "desc": "Great supporter. Excellent at giving critical hits to his team and healing his allies in danger."
+    }, {
+        "name": "Dr. Frankenbeans",
+        "base": "Dr. Frankenbeans",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "WB Studios",
+        "desc": "Never send a Monster to do the work of an evil scientist..."
+    }, {
+        "name": "Dr. Killpatient",
+        "base": "Bugs Bunny",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Town",
+        "desc": "Stunned, hm? Now that's bad! That's the first symptom of Rabbititus! Tell me, do you feel any rabbit inclinations?"
+    }, {
+        "name": "Dread Pirate Penelope",
+        "base": "Penelope",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "Tasmania",
+        "desc": "Terror of the Tasman Sea, the cute lass with the cutlass. A leader by nature and a pirate by circumstance. Wielder of the legendary Brineblade."
+    }, {
+        "name": "Duck Dodgers",
+        "base": "Daffy Duck",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Space",
+        "desc": "A powerful attacker who can reduce the cooldown of his special skill to deal massive amounts of damage!"
+    }, {
+        "name": "Dunker Bugs",
+        "base": "Bugs Bunny",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "WB Studios",
+        "desc": "The most playful playmaker on the court, setting up passes and prepping his team members for game-winning dunks."
+    }, {
+        "name": "Dunker Lola",
+        "base": "Lola",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "WB Studios",
+        "desc": "The heartthrob of the hoops. By far the most fit, energetic and committed athlete on the team. She's got something to prove, and we're here to witness it."
+    }, {
+        "name": "Dunker Tweety",
+        "base": "Tweety",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "WB Studios",
+        "desc": "Tiny but vicious, evasive but in your face. keep your arms up because this little bird ain't playing games."
+    }, {
+        "name": "EGGH34D",
+        "base": "Egghead Jr",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "City",
+        "desc": "A self-taught hacker whose curiosity has landed him on the wrong side of the law. No secrets, or buffs, are safe."
+    }, {
+        "name": "Egghead Jr.",
+        "base": "Egghead Jr",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Farm",
+        "desc": "This little polymath has a plan to protect his team from Crits and Flip anything that comes his way."
+    }, {
+        "name": "Egghead the Knowing",
+        "base": "Egghead Jr",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "Both apprentice and master, a young magician who learns all that which should remain unknown."
+    }, {
+        "name": "El Espectro",
+        "base": "Toro",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "Desert",
+        "desc": "You've heared of him, haven't you? The masked fighter from Cowgary? They say if he notices your guard its down, it's all over!"
+    }, {
+        "name": "Elf Daffy Duck",
+        "base": "Daffy Duck",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "WB Studios",
+        "desc": "A supporter duck who can turn bad effects into good."
+    }, {
+        "name": "Elmer Bugs",
+        "base": "Elmer Fudd",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Summit",
+        "desc": "Rabbit season has taken its toll on Elmer's mental health. An interesting case study, for sure, but how do we know he's not faking it just for the pajamas and limitless carrots?"
+    }, {
+        "name": "Elmer Fudd",
+        "base": "Elmer Fudd",
+        "rarity": "Rare",
+        "type": "Defender",
+        "region": "Forest",
+        "desc": "A hunter who pwotects his Forest friends, keeping critical hitters in check."
+    }, {
+        "name": "Elmer the Sure",
+        "base": "Elmer Fudd",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "A selfish knight who becomes stronger the more he's protected."
+    }, {
+        "name": "El Relámpago",
+        "base": "Speedy Gonzales",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Desert",
+        "desc": "The fastest fighter of the ring. Zips around the battlefield, provoking his enemies and pumping up El Espectro for their patent-pending Double Death Drop."
+    },
+    {
+        "name": "Evil Granny",
+        "base": "Granny",
+        "rarity": "Legendary",
+        "type": "Defender",
+        "region": "Space",
+        "desc": "Am ancient, or at the very least elderly, evil that assaults the Earth. How could this have happened? And how can we stop it?"
+    }, {
+        "name": "Fair Lady Melissa",
+        "base": "Melissa",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Avalooney",
+        "desc": "This damsel in distress, once fated to marry the Grand Duke Sylvester, now fights alongside the Aristocrats buffing and supporting their counterattacks."
+    }, {
+        "name": "Farmer Hector",
+        "base": "Hector",
+        "rarity": "Common",
+        "type": "Defender",
+        "region": "Farm",
+        "desc": "Stout defender. Good against high defense defenders and cats."
+    }, {
+        "name": "Farmer Petunia",
+        "base": "Petunia Pig",
+        "rarity": "Common",
+        "type": "Attacker",
+        "region": "Farm",
+        "desc": "This attacker is capable of dealing damage while protecting her allies with amazing defense boosts and healing abilities!"
+    }, {
+        "name": "Farmer Porky",
+        "base": "Porky Pig",
+        "rarity": "Common",
+        "type": "Support",
+        "region": "Farm",
+        "desc": "Support farmer. Helps his team by healing them and weakening the enemies."
+    }, {
+        "name": "Fireman Bugs",
+        "base": "Bugs Bunny",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Town",
+        "desc": "Bugs does his best to keep the woodlands safe and fire-free, despite what the exploding cigars would have you think."
+    }, {
+        "name": "Fishercat Sylvester Jr.",
+        "base": "Sylvester Jr",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "Forest",
+        "desc": "A chipper little healer fishing for victories by buffing his team's Attack. He loves when allies gain Hidden!"
+    }, {
+        "name": "Flamenco Prissy",
+        "base": "Miss Prissy",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "WB Studios",
+        "desc": "This fiery dancer Dodges through enemy advances and keeps her peers moving."
+    }, {
+        "name": "Foghorn Leghorn",
+        "base": "Foghorn Leghorn",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Farm",
+        "desc": "Strong defender. Protects his team from enemies, especially when team members are low on health."
+    }, {
+        "name": "Foghorn the Invincible",
+        "base": "Foghorn Leghorn",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Avalooney",
+        "desc": "A walking fortress who wants all the armor for himself."
+    }, {
+        "name": "Foreman Leghorn",
+        "base": "Foghorn Leghorn",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "Town",
+        "desc": "Now stack, I say, stack 'em high, boy! I want these walls as large and thick as your head... That's a joke, son!"
+    }, {
+        "name": "Friar Porky",
+        "base": "Porky Pig",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Avalooney",
+        "desc": "This laughing tank protects his team by taking hits and healing all of his allies."
+    }, {
+        "name": "General Pandemonium",
+        "base": "Yosemite Sam",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "WB Studios",
+        "desc": "The mean, high-ranking, high-salutin' soldier of the invading army is here to break up alliances and make sure there's no Assisting going on."
+    }, {
+        "name": "Gentleman Pepe",
+        "base": "Pepe Le Pew",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "WB Studios",
+        "desc": "A relentless playboy who knows all too well how much love can hurt."
+    }, {
+        "name": "Ghost of Christmas Taz",
+        "base": "Taz",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "WB Studios",
+        "desc": "Keeper of dark revelations, the warning of a future best avoided. Keep your allies close, or the cold may prove too strong."
+    }, {
+        "name": "Gossamer",
+        "base": "Gossamer",
+        "rarity": "Rare",
+        "type": "Defender",
+        "region": "Avalooney",
+        "desc": "This scary tank specializes in greatly slowing down his enemies and ignoring his target's defense."
+    }, {
+        "name": "Gothamer",
+        "base": "Gossamer",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "WB Studios",
+        "desc": "Protector of the castle and owner of a lonely heart. His silence both tortures and emperors him."
+    }, {
+        "name": "Grand Duke Sylvester",
+        "base": "Sylvester",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "The Grand Duke is able to sniff out hidden enemies and attack them with righteous fury."
+    }, {
+        "name": "Grand Dukeling Sylvester Jr.",
+        "base": "Sylvester Jr",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "Like his father he's always with a raptor in hand and en garde."
+    }, {
+        "name": "Granny",
+        "base": "Granny",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "City",
+        "desc": "A senior healer, able to empower her allies and weaken her enemies."
+    }, {
+        "name": "Gridiron Gossamer",
+        "base": "Gossamer",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Town",
+        "desc": "A beefy linebacker with his eyes on the prize. Once he builds momentum, good game!"
+    }, {
+        "name": "Handmaiden Granny",
+        "base": "Granny",
+        "rarity": "Common",
+        "type": "Support",
+        "region": "Avalooney",
+        "desc": "This healing assistant is an expert at helping her allies in battle."
+    }, {
+        "name": "Hector",
+        "base": "Hector",
+        "rarity": "Rare",
+        "type": "Defender",
+        "region": "City",
+        "desc": "This very resistant tank steps into the front lines to defend his team even in the most adverse conditions."
+    }, {
+        "name": "Henery Hawk",
+        "base": "Henery Hawk",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Farm",
+        "desc": "All appetite and no patience, this chicken hawk chomps through Max Health with Lifesteal against chickens."
+    }, {
+        "name": "Henery Hike",
+        "base": "Henery Hawk",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Town",
+        "desc": "This receiver may be small, but there's no stopping him once he's got some Speed Up under his wings."
+    }, {
+        "name": "Henery Horus",
+        "base": "Henery Hawk",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Summit",
+        "desc": "God of the skies, carrier of the Sun and Moon. Rises above all earthly limitations, but not above the hunger for some fresh chicken."
+    }, {
+        "name": "Hermes Road Runner",
+        "base": "Road Runner",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Summit",
+        "desc": "Emissary of the gods, this psychopomp is bad news for all those who oppose the divine - and moves equally as fast!"
+    }, {
+        "name": "Hillbilly Hare",
+        "base": "Bugs Bunny",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Farm",
+        "desc": "Promenade across the field \/ Keep your allies fully healed \/ Keep 'em healed and keep 'em attacking \/ Send those enemies a-packing!"
+    }, {
+        "name": "Hippety Hopper",
+        "base": "Hippety Hopper",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "Tasmania",
+        "desc": "With Legendary strength, this boxer side-steps counters and dodge to smash non-Defender enemies with Haymakers."
+    }, {
+        "name": "Holiday Bugs Bunny",
+        "base": "Bugs Bunny",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "WB Studios",
+        "desc": "A defender with a special knack for helping out allies and stunning opponents."
+    }, {
+        "name": "Hugo",
+        "base": "Hugo",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "Summit",
+        "desc": "The Abominable Snow-Man is out searching for pet of his own, and freezing everything in his path."
+    }, {
+        "name": "Hunter Yosemite Sam",
+        "base": "Yosemite Sam",
+        "rarity": "Common",
+        "type": "Attacker",
+        "region": "Forest",
+        "desc": "A cantankerous critical hitter with counter chance and a hatred of rabbits."
+    }, {
+        "name": "Huntsman Porky",
+        "base": "Porky Pig",
+        "rarity": "Common",
+        "type": "Attacker",
+        "region": "Summit",
+        "desc": "This axeman cuts through Defenders while sheltering your own. Good luck staying warm with this hunter in the snow."
+    }, {
+        "name": "Iron Mutt",
+        "base": "Hector",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "City",
+        "desc": "Iron skin, nerves of steel and a heart of gold. When villains descend upon the world, a hero must rise."
+    }, {
+        "name": "Jester Bugs",
+        "base": "Bugs Bunny",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "Only a fool would strike this prankster and his allies."
+    }, {
+        "name": "Joe Monday",
+        "base": "Daffy Duck",
+        "rarity": "Common",
+        "type": "Attacker",
+        "region": "City",
+        "desc": "This gumshoe duck cracks cases and skulls alike with guaranteed crits, constant Counter Chance, and immunity from all Debuffs."
+    }, {
+        "name": "K'Chutha Sa'am",
+        "base": "Yosemite Sam",
+        "rarity": "Rare",
+        "type": "Defender",
+        "region": "WB Studios",
+        "desc": "A powerful tank who's able to lifesteal while taunting and deal large amounts of damage to his enemies."
+    }, {
+        "name": "K-9",
+        "base": "K-9",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Space",
+        "desc": "Marvin's loyal second-in-commander, ready to sniff out and mark targets, and their planets, for total annihilation."
+    }, {
+        "name": "K-9000",
+        "base": "K-9",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Space",
+        "desc": "Created by M4RV1N to patrol the firewalls of the metanet, this pixelated pooch uses his multiple extra appendages to Hack into enemies and Flip their Buffs with ease."
+    }, {
+        "name": "King Bugs Bunny",
+        "base": "Bugs Bunny",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "The king rules at stunning his enemies and inflicting them with taunt."
+    }, {
+        "name": "King Daffy",
+        "base": "Daffy Duck",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "More monarch than mallard, this greedy attacker can't go a turn without Stealing a Buff."
+    }, {
+        "name": "Kitty Ketty",
+        "base": "Penelope",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "WB Studios",
+        "desc": "A master of Assist, this kitty commands the battlefield through her allies, healing in urgent waves."
+    }, {
+        "name": "LeBron James",
+        "base": "LeBron James",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "WB Studios",
+        "desc": "The Captain, King James. Lethal from range and up close, with a playstyle both magnetic and malleable."
+    }, {
+        "name": "Leopold",
+        "base": "Bugs Bunny",
+        "rarity": "Rare",
+        "type": "Defender",
+        "region": "City",
+        "desc": "The maestro can protect his team and deal large amounts of damage with his gran finale."
+    }, {
+        "name": "Litigator Lola",
+        "base": "Lola",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "City",
+        "desc": "The City's top attorney. With quick mind and quicker tongue, no Taunt goes unchallenged."
+    }, {
+        "name": "Lola",
+        "base": "Lola",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Town",
+        "desc": "An irrepressible bunny babe with zero chill. Nothing this cute should do this much damage."
+    }, {
+        "name": "Lola Frostbane",
+        "base": "Lola",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Summit",
+        "desc": "A mysterious marauder from the distant north who emboldens those who can face the Chill."
+    }, {
+        "name": "Lunar Petunia",
+        "base": "Petunia Pig",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Avalooney",
+        "desc": "A force of peace in a world of mayhem. When the moon rises, so does her power."
+    }, {
+        "name": "Lunar Toro",
+        "base": "Toro",
+        "rarity": "Legendary",
+        "type": "Defender",
+        "region": "Avalooney",
+        "desc": "Embodiment of a still pond which reflects the moon flawlessly. A single ripple is enough to reveal all that lies beneath the calm surface."
+    }, {
+        "name": "M4RV1N",
+        "base": "Marvin",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Space",
+        "desc": "A-bio-cybernetic projection tasked with protecting the metanet. You are now in his domain."
+    }, {
+        "name": "Mail Runner",
+        "base": "Road Runner",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "City",
+        "desc": "Nothing stops this mailman \u2014 not even Taunt \u2014 from delivering damage."
+    }, {
+        "name": "Major Canasta",
+        "base": "Nasty Canasta",
+        "rarity": "Legendary",
+        "type": "Defender",
+        "region": "Tasmania",
+        "desc": "Predator of predators, this game hunter joins the mayhem with an empty space on his wall."
+    }, {
+        "name": "Martian Bugs",
+        "base": "Bugs Bunny",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "Space",
+        "desc": "A rabbit with an invisibility device that allows him to hide from enemy and counter attack if attacked!"
+    }, {
+        "name": "Marvin",
+        "base": "Marvin",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Space",
+        "desc": "The martian who started it all is armed to the teeth with powerful weapons."
+    }, {
+        "name": "Marvin Fudd",
+        "base": "Marvin",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "Forest",
+        "desc": "The brightest laser in the woods, melting single targets from above Whenever an enemy falls, his Trigger Finger pulls."
+    }, {
+        "name": "Marvin the Marvelous",
+        "base": "Marvin",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "In a time far removed from his own, Marvin is armed with groundbreaking technology and tactical knowledge. Sadly he has not figured out how to ride a horse yet."
+    }, {
+        "name": "Masked Avenger",
+        "base": "Daffy Duck",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "Desert",
+        "desc": "Awesome avenger. The Masked Avenger brings justice straight to his enemies' health, attacking quickly and decisively."
+    }, {
+        "name": "Master Speedy",
+        "base": "Speedy Gonzales",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "This wushu master slows and dodges enemies, keeping his allies on the righteous path."
+    }, {
+        "name": "Matador Bugs",
+        "base": "Bugs Bunny",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "WB Studios",
+        "desc": "This crowd-pleaser baits enemies into his Taunt with timely Silences, dodging to roaring applause."
+    }, {
+        "name": "Merlin Sam",
+        "base": "Yosemite Sam",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "The wizard greatly slows down his enemies and inflicts them with Damage Over Time."
+    }, {
+        "name": "Miss Prissy",
+        "base": "Miss Prissy",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "Farm",
+        "desc": "High damage critical hits. Unpredictable chick can land a critical on all attacks."
+    }, {
+        "name": "Monster Foghorn",
+        "base": "Foghorn Leghorn",
+        "rarity": "Rare",
+        "type": "Defender",
+        "region": "WB Studios",
+        "desc": "Lifestealer defender. Steals a lot of health from his target and jumps in front of danger to save his allies."
+    }, {
+        "name": "Monster Tweety",
+        "base": "Tweety",
+        "rarity": "Legendary",
+        "type": "Defender",
+        "region": "Avalooney",
+        "desc": "A sip of Hyde Juice turned Tweety into a Debuffing, Countering menace who fears no Taunt."
+    }, {
+        "name": "Mountain Man Sam",
+        "base": "Yosemite Sam",
+        "rarity": "Common",
+        "type": "Attacker",
+        "region": "Summit",
+        "desc": "A cranky hermit alone for a reason. Try to cool his temper and you'll get burned."
+    }, {
+        "name": "Mountie Elmer",
+        "base": "Elmer Fudd",
+        "rarity": "Rare",
+        "type": "Defender",
+        "region": "Summit",
+        "desc": "A resilient tundra trooper at home in the cold who keeps his team clear of debuffs."
+    }, {
+        "name": "Mr. Bugs",
+        "base": "Bugs Bunny",
+        "rarity": "Rare",
+        "type": "Defender",
+        "region": "WB Studios",
+        "desc": "This tragic hero lives for his Supports, Assisting and boosting Defense when times are dark."
+    }, {
+        "name": "Mr. Sam",
+        "base": "Yosemite Sam",
+        "rarity": "Common",
+        "type": "Defender",
+        "region": "City",
+        "desc": "A stout scam artist, able to protect his team and heal himself."
+    }, {
+        "name": "Mummy Ralph",
+        "base": "Ralph Wolf",
+        "rarity": "Legendary",
+        "type": "Defender",
+        "region": "WB Studios",
+        "desc": "A body  without a soul, living a curse that eternally binds it to his worldly existence to seek the one who goes \\\"Bahhhh\\\"."
+    }, {
+        "name": "Nasty Canasta",
+        "base": "Nasty Canasta",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Desert",
+        "desc": "This brute smashes foes with multi-hits and Damage Over Time, strengthening with each kill."
+    }, {
+        "name": "Ninja Ralph",
+        "base": "Ralph Wolf",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "Forest",
+        "desc": "A skirting shadow. A bird in flight. A stealthy shinobi who will not let honor get in the way of his prize."
+    }, {
+        "name": "Nova Bunny",
+        "base": "Lola",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Space",
+        "desc": "In the cosmic void, all energy convenes at a single point. Those who come in contact with it are gifted with a power that is never truly under control."
+    }, {
+        "name": "O'Mike",
+        "base": "O'Mike",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Forest",
+        "desc": "Being the bottom half isn't the most glamorous position, but it's an essential part of the trick. Also all that heavy lifting really strengthens your core."
+    }, {
+        "name": "O'Pat",
+        "base": "O'Pat",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Forest",
+        "desc": "The mischievous chief of the leprechauns will Steal and Scramble to protect his precious pot o' gold."
+    }, {
+        "name": "Officer Prissy",
+        "base": "Miss Prissy",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Town",
+        "desc": "A sharp-eyed Cop who leaves the Outlaws seeing red."
+    }, {
+        "name": "Officer Yosemite",
+        "base": "Yosemite Sam",
+        "rarity": "Common",
+        "type": "Support",
+        "region": "Town",
+        "desc": "Powerful support. Deals lots of damage and buffs his allies."
+    }, {
+        "name": "Outback Dawg",
+        "base": "Barnyard Dawg",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Tasmania",
+        "desc": "This hunter offers teamwide Counter Chance, archetype-based Debuffs, and a handy self-heal\/cleanse."
+    }, {
+        "name": "Outlaw Foghorn",
+        "base": "Foghorn Leghorn",
+        "rarity": "Common",
+        "type": "Attacker",
+        "region": "Desert",
+        "desc": "Counterattack specialist. The Mystery Man can counter attacks and stop his enemies from countering, also."
+    }, {
+        "name": "Outlaw Sylvester",
+        "base": "Sylvester",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "Desert",
+        "desc": "Critical supporter. Able to raise critical hits for all his team and hit taunting enemies."
+    }, {
+        "name": "Penelope",
+        "base": "Penelope",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Town",
+        "desc": "Pursuit made this Attacker an expert at dodging - especially when afflicted with Damage Over Time. What's Taunt to a cat on the run?"
+    }, {
+        "name": "Penelope Couture",
+        "base": "Penelope",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "City",
+        "desc": "Too haute for her enemies, this sophisti-cat and her cohorts dodge advances while empowering artists."
+    }, {
+        "name": "Pepe Le Bard",
+        "base": "Pepe Le Pew",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "Avalooney",
+        "desc": "The bard uses his songs to heavily boost and heal his allies in battle."
+    }, {
+        "name": "Pepe Le Pew",
+        "base": "Pepe Le Pew",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "Town",
+        "desc": "The persistent, odiferous Attacker leaves his mark with Damage Over Time. When Penelope attacks, his heart races."
+    }, {
+        "name": "Petunia Pig",
+        "base": "Petunia Pig",
+        "rarity": "Legendary",
+        "type": "Support",
+        "region": "Town",
+        "desc": "A crafty healer with a strong personality and an even stronger right hook."
+    }, {
+        "name": "Phantom Le Pew",
+        "base": "Pepe Le Pew",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "City",
+        "desc": "From the shadows this monster fixates on a single enemy, drawing strength from their sorrow."
+    }, {
+        "name": "Photographer Sylvester",
+        "base": "Sylvester",
+        "rarity": "Common",
+        "type": "Attacker",
+        "region": "Town",
+        "desc": "An artist whose camera slows enemies. With work this Stunning, it's no wonder he Hides from the public."
+    }, {
+        "name": "Picador Sylvester Jr.",
+        "base": "Sylvester Jr",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "WB Studios",
+        "desc": "Every Matador needs a Picador to Silence enemies, inflict DoTs, and remove enemy Stat Ups."
+    }, {
+        "name": "Police Dog Hector",
+        "base": "Hector",
+        "rarity": "Common",
+        "type": "Defender",
+        "region": "Town",
+        "desc": "Defensive police dog. Able to soak in a lot of damage and protect his allies while also helping them get ahead in the battle."
+    }, {
+        "name": "Porky Pig",
+        "base": "Porky Pig",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Town",
+        "desc": "Balanced support swine. This friendly swine can heal his allies and dish out some damage to his enemies."
+    }, {
+        "name": "Presto Pig",
+        "base": "Porky Pig",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "City",
+        "desc": "With the powers of Sham-Fu, even the silliest parlor tricks become weapons against evil."
+    }, {
+        "name": "Prizefighter Daffy",
+        "base": "Daffy Duck",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Town",
+        "desc": "This featherweight Defender gains Taunt with his enemies, arming Daffy teams to the bill."
+    }, {
+        "name": "Professor Prissy",
+        "base": "Miss Prissy",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "Tasmania",
+        "desc": "Nothing slows this explorer down, and her Speed-related buffs keep her whole team at pace."
+    }, {
+        "name": "QB Daffy",
+        "base": "Daffy Duck",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "Town",
+        "desc": "Self-appointed captain of the team. Caller of all plays, focus of all eyes, keeper of all glory."
+    }, {
+        "name": "Queso Bandito",
+        "base": "Speedy Gonzales",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "WB Studios",
+        "desc": "This little Mouse can do fast attacks and help your team. You'll only hear the breeze, when he comes to steal your cheese!"
+    }, {
+        "name": "Raider Lola",
+        "base": "Lola",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "Tasmania",
+        "desc": "This explorer showers enemies with debuffs via crit-capable AoEs, revealing all that's Hidden."
+    }, {
+        "name": "Ralph the Vampire",
+        "base": "Ralph Wolf",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "WB Studios",
+        "desc": "Fast attacker. The vampire is able to sustain himself in battle while he deals large amounts of damage to his enemies."
+    }, {
+        "name": "Ralph Wolf",
+        "base": "Ralph Wolf",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "Farm",
+        "desc": "High risk attacker. Uses his multipurpose kit to set up strong attacks."
+    }, {
+        "name": "Referee Foghorn",
+        "base": "Foghorn Leghorn",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Town",
+        "desc": "An arbitrator who calls all the shots. Stick to his rules or he'll have you sitting this one out."
+    }, {
+        "name": "Reindeer Road Runner",
+        "base": "Road Runner",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "WB Studios",
+        "desc": "Once every year, this magical supporter travels the world, Silencing all in his wake."
+    }, {
+        "name": "Revenant Road Runner",
+        "base": "Road Runner",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Desert",
+        "desc": "Here he comes to steal your soul - and deliver Crits!"
+    }, {
+        "name": "Road Runner",
+        "base": "Road Runner",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Desert",
+        "desc": "Fast support. Avoids enemy damage while debuffing his enemies and speeding up his team."
+    }, {
+        "name": "Rocket Coyote",
+        "base": "Wille E. Coyote",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "WB Studios",
+        "desc": "Risky, but very damaging attacker who thrives against Damage Over Time."
+    }, {
+        "name": "Rocket Sylvester",
+        "base": "Sylvester",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "WB Studios",
+        "desc": "A special support character who truly shines when accompanied by coyotes."
+    }, {
+        "name": "Ronin Canasta",
+        "base": "Nasty Canasta",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "Forest",
+        "desc": "A wandering swordsman with no home or master who poisons everything of value to him."
+    }, {
+        "name": "Royal Page Coyote",
+        "base": "Wille E. Coyote",
+        "rarity": "Common",
+        "type": "Support",
+        "region": "Avalooney",
+        "desc": "A volatile servant of the king, he's able to destabilize enemies and keep allies fighting."
+    }, {
+        "name": "Salesduck Daffy",
+        "base": "Daffy Duck",
+        "rarity": "Common",
+        "type": "Attacker",
+        "region": "Town",
+        "desc": "Multipurpose duck. This persistent duck can eat through taunt enemies with his guaranteed criticals."
+    }, {
+        "name": "Sam Sheepdog",
+        "base": "Sam Sheepdog",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Farm",
+        "desc": "Big and slow, but vigilant and ready with a counter for enemies eying his flock."
+    }, {
+        "name": "Samurai Sheepdog",
+        "base": "Sam Sheepdog",
+        "rarity": "Common",
+        "type": "Defender",
+        "region": "Forest",
+        "desc": "Loyal guardian to the Shrine. This defender stands his ground and grows stronger from his enemies' hesitation."
+    }, {
+        "name": "Scarecrow Sylvester",
+        "base": "Sylvester",
+        "rarity": "Common",
+        "type": "Support",
+        "region": "Farm",
+        "desc": "Debilitating expert. Defeats his enemies by greatly weakening them and doing health based damage."
+    }, {
+        "name": "Scarlet Pumpernickel",
+        "base": "Daffy Duck",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "The Scarlet Pumpernickel is a master swordsman who can hide from his foes and attack them with impunity."
+    }, {
+        "name": "Scout Foghorn",
+        "base": "Foghorn Leghorn",
+        "rarity": "Common",
+        "type": "Defender",
+        "region": "Forest",
+        "desc": "A beefy scout who Taunts and Stuns enemies, buffing his buddy Scout Sylvester."
+    }, {
+        "name": "Scout Leader Granny",
+        "base": "Granny",
+        "rarity": "Common",
+        "type": "Support",
+        "region": "Forest",
+        "desc": "A caring scout who keeps her allies on their feet, buffing the Max Health of woodland critters."
+    }, {
+        "name": "Scout Sylvester",
+        "base": "Sylvester",
+        "rarity": "Common",
+        "type": "Attacker",
+        "region": "Forest",
+        "desc": "A sneaky scout who attacks from Hidden, buffing his buddy Scout Foghorn."
+    }, {
+        "name": "Scrooge Yosemite Sam",
+        "base": "Yosemite Sam",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "WB Studios",
+        "desc": "An attacker who also helps his team with high risk reward effects."
+    }, {
+        "name": "Sea Goin' Sam",
+        "base": "Yosemite Sam",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Tasmania",
+        "desc": "This irate pirate is out looking for Bounties. With his crew of Outlaws around, there's no escaping him."
+    }, {
+        "name": "Settler Granny",
+        "base": "Granny",
+        "rarity": "Common",
+        "type": "Support",
+        "region": "Desert",
+        "desc": "Support settler. Able to heal her allies and cleanse their wounds."
+    }, {
+        "name": "Sheriff Porky",
+        "base": "Porky Pig",
+        "rarity": "Common",
+        "type": "Support",
+        "region": "Desert",
+        "desc": "Support peacekeeper. The sheriff protects his allies by weakening their enemies and quickly jumping into action."
+    }, {
+        "name": "Shooter Coyote",
+        "base": "Wille E. Coyote",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "WB Studios",
+        "desc": "Some would say that science and inventiveness have no place in the realm of sport. Wile E. is here to prove that all his crafty inventiveness transfers cleanly to the court."
+    }, {
+        "name": "Shooter Road Runner",
+        "base": "Road Runner",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "WB Studios",
+        "desc": "The only player capable of occupying all positions at once. Put some bird seed by the three-point line and watch the numbers soar."
+    }, {
+        "name": "Shooter Taz",
+        "base": "Taz",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "WB Studios",
+        "desc": "A tornado of rubber and anger on the court. An invaluable member of the team, even if the rules aren't always so clear to him. The rulebook was delicious, however."
+    }, {
+        "name": "Show Biz Bugs",
+        "base": "Bugs Bunny",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "WB Studios",
+        "desc": "This rabbit debuffs enemies and saves his allies from a bad performance!"
+    }, {
+        "name": "Show Biz Daffy",
+        "base": "Daffy Duck",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "WB Studios",
+        "desc": "This duck thrives from stunning his enemies with his team's performance!"
+    }, {
+        "name": "Siegfried Elmer",
+        "base": "Elmer Fudd",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Avalooney",
+        "desc": "Calling thunder, he's able to dish out heavy damage to all foes while standing in the front lines protecting his team."
+    }, {
+        "name": "Snowbunny Bugs",
+        "base": "Bugs Bunny",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Summit",
+        "desc": "When arctic hunters cause trouble for the wildlife, Bugs is forced to pull all the seduction stops."
+    }, {
+        "name": "Solid Tin Coyote",
+        "base": "Wille E. Coyote",
+        "rarity": "Legendary",
+        "type": "Defender",
+        "region": "Desert",
+        "desc": "An elegant hunting machine, born from scrap metal and discarded furniture. Surprisingly self-conscious, in more ways than one."
+    }, {
+        "name": "Space Cadet",
+        "base": "Porky Pig",
+        "rarity": "Rare",
+        "type": "Support",
+        "region": "Space",
+        "desc": "A support toon able to give his allies lots of defense and heal his tanks!"
+    }, {
+        "name": "Space Explorer Granny",
+        "base": "Granny",
+        "rarity": "Common",
+        "type": "Attacker",
+        "region": "Space",
+        "desc": "Granny's invisibility cloak allows her to deal big damage while staying stealthy!"
+    }, {
+        "name": "Speedskater Coyote",
+        "base": "Wille E. Coyote",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "WB Studios",
+        "desc": "Race this coyote at your own risk. His competition Freezes faster than the rink."
+    }, {
+        "name": "Speedy Gonzales",
+        "base": "Speedy Gonzales",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Desert",
+        "desc": "\u00a1Andale! With AoE, Ignore Dodge, and extra attacks on random targets, good luck avoiding this mouse."
+    }, {
+        "name": "Star-Pharaoh Marvin",
+        "base": "Marvin",
+        "rarity": "Legendary",
+        "type": "Support",
+        "region": "Space",
+        "desc": "The One True Healer comes from beyond the cosmos to Debuff false idols."
+    }, {
+        "name": "Starseeker Lola",
+        "base": "Lola",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "Space",
+        "desc": "This deepspace explorer debuffs Hidden enemies, dodging or countering attacks."
+    }, {
+        "name": "Super Coyote",
+        "base": "Wille E. Coyote",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "City",
+        "desc": "The ACME Super Outfit pack guarantees all sorts of amazing powers. There's no guarantee, however, that they'll have your size."
+    }, {
+        "name": "Super-Rabbit",
+        "base": "Bugs Bunny",
+        "rarity": "Legendary",
+        "type": "Defender",
+        "region": "City",
+        "desc": "A tamed woodland creature turned into the superdynamic rabbit of tomorrow."
+    }, {
+        "name": "Supersonic Hopper",
+        "base": "Hippety Hopper",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Space",
+        "desc": "A destructive force let let loose upon the world, unaware of all the damage he's causing. A villain of sorts, but it's really hard to stay mad at him."
+    }, {
+        "name": "Sword Swallower She-Devil",
+        "base": "Tasmanian She-Devil",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Farm",
+        "desc": "Nothing is too sharp, too serrated or too flame-covered to threaten her implacable gut. Frankly, she doesn't really understand what all the fuss is about, but she likes the attention."
+    }, {
+        "name": "Sylvester",
+        "base": "Sylvester",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "City",
+        "desc": "This sneaky cat can easily become hidden and lash out large amounts of damages on his enemies."
+    }, {
+        "name": "Sylvester Jr.",
+        "base": "Sylvester Jr",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "City",
+        "desc": "This kitty follows allies into Hiding and heals the team when they emerge, popping out to Stun."
+    }, {
+        "name": "Sylvester Slaszlo",
+        "base": "Sylvester",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "WB Studios",
+        "desc": "This rebel on the run Assists from safety, scaling damage with each Defense Up on his team."
+    }, {
+        "name": "Sylvester the Brash",
+        "base": "Sylvester",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "A speedy cavalier who takes advantage of Defense Down to deliver devastating Critical hits."
+    }, {
+        "name": "Tasmanian She-Devil",
+        "base": "Tasmanian She-Devil",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Tasmania",
+        "desc": "This surly defender Flips debuffs on her team and steals Turn Meter for tempo. Pair with Taz for max effect."
+    }, {
+        "name": "Taz",
+        "base": "Taz",
+        "rarity": "Legendary",
+        "type": "Attacker",
+        "region": "Tasmania",
+        "desc": "This whirlwind Scrambles and Flips enemy buffs, enraging at low Health. Pair with She-Devil for mayhem."
+    }, {
+        "name": "Tazinsky",
+        "base": "Taz",
+        "rarity": "Legendary",
+        "type": "Defender",
+        "region": "City",
+        "desc": "True art is not always immediately coherent or beautiful. Sometimes it's confusing, sometimes it's scary. Sometimes you have to get out of its way before it eat you."
+    }, {
+        "name": "The Flaming Succotash",
+        "base": "Sylvester Jr",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "City",
+        "desc": "A misfire of science had transformed a mild-mannered kitty into a luminary beacon of justice. This flaming feline now roams the city skies with an obligation to cook the crooks!"
+    }, {
+        "name": "The Mighty Angelo",
+        "base": "The Mighty Angelo",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Farm",
+        "desc": "A heavy-hitting, high-hopping circus performer with a temper nearly as short as he is."
+    }, {
+        "name": "The Pig Kahuna",
+        "base": "Porky Pig",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Tasmania",
+        "desc": "Porky has messed around with the supernatural and ended up a pawn in a far greater scheme, as he does."
+    }, {
+        "name": "The Rapthcallion",
+        "base": "Sylvester",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Space",
+        "desc": "Crystallized cosmic energy might be this trickster's meal ticket. Just as long as his son stays out of the way."
+    }, {
+        "name": "The Sea-Devil",
+        "base": "Tasmanian She-Devil",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Tasmania",
+        "desc": "A creature of the deep who protects sunken ships and the treasure within. Effortless controls the tide of battle and leaves her pursuers battling the tides."
+    }, {
+        "name": "Tourist Daffy",
+        "base": "Daffy Duck",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Summit",
+        "desc": "Daffy took a right turn at Albuquerque and now needs to Cleanse, Buff and call on Rabbit allies to Assist if he wants to survive."
+    }, {
+        "name": "Trapper Sylvester",
+        "base": "Sylvester",
+        "rarity": "Common",
+        "type": "Attacker",
+        "region": "Summit",
+        "desc": "A sneaky hunter exploiting the cold to nab his prey. If you can't see him, he probably sees you."
+    }, {
+        "name": "Treasure Hunter Tweety",
+        "base": "Tweety",
+        "rarity": "Legendary",
+        "type": "Support",
+        "region": "Tasmania",
+        "desc": "A healer and finisher, all in one, this bird smashes foes with boulders from the safety of its team."
+    }, {
+        "name": "Tweety",
+        "base": "Tweety",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "City",
+        "desc": "The cutest little bird you ever did taw. Why lift a feather when your allies do the work?"
+    }, {
+        "name": "Tweety the Twue",
+        "base": "Tweety",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Avalooney",
+        "desc": "A knight banneret who keeps his team well-stocked in both defense and offense."
+    }, {
+        "name": "Valkyrie Bugs",
+        "base": "Bugs Bunny",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "Avalooney",
+        "desc": "A support valkyrie who can greatly expedite her team's actions and silence her enemies."
+    }, {
+        "name": "Van Wile",
+        "base": "Wille E. Coyote",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Desert",
+        "desc": "A well-equipped Monster hunter with nerves of steel and bullets of silver."
+    }, {
+        "name": "Waiter Elmer",
+        "base": "Elmer Fudd",
+        "rarity": "Common",
+        "type": "Support",
+        "region": "City",
+        "desc": "The waiter supports his team by healing and empowering his allies, especially good when fighting rabbits."
+    }, {
+        "name": "Western Type Hero",
+        "base": "Daffy Duck",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "WB Studios",
+        "desc": "Critical striker. Dealing high amounts of damage through his critical skills, he's able to quickly defeat his foes."
+    }, {
+        "name": "Wildcard Wolf",
+        "base": "Ralph Wolf",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "Desert",
+        "desc": "Collect Buffs, deal crits, and Stun or Silence enemies who call this gambler out."
+    }, {
+        "name": "Wile E. Coyote",
+        "base": "Wille E. Coyote",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Desert",
+        "desc": "This must-answer mastermind brings tricks to stifle yours, a self-healing appetite for birds, and an ever-climbing Attack stat."
+    }, {
+        "name": "Winter Bugs",
+        "base": "Bugs Bunny",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Summit",
+        "desc": "With unavoidable Chilly and overwhelming Critical effects, this attacker brings the Summit to his enemies."
+    }, {
+        "name": "Witch Hazel",
+        "base": "Witch Hazel",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "Avalooney",
+        "desc": "The wicked witch uses Damage Over Time to defeat those who attack her, dealing heavy damage."
+    }, {
+        "name": "Witch Lezah",
+        "base": "Witch Hazel",
+        "rarity": "Common",
+        "type": "Support",
+        "region": "Space",
+        "desc": "The witch supports her team by being hidden and stealing her enemies positive effects!"
+    }, {
+        "name": "Witchdoctor Hazel",
+        "base": "Witch Hazel",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Tasmania",
+        "desc": "In the darkest jungle, this Taunting witch inflicts DoTs, Silence all enemies, and buffs the Attack of magic allies."
+    }, {
+        "name": "Yeti Gossamer",
+        "base": "Gossamer",
+        "rarity": "Epic",
+        "type": "Defender",
+        "region": "Summit",
+        "desc": "The blizzard itself, bringing the cold to the whole fight. Enemies Freeze while allies thaw just enough."
+    }, {
+        "name": "Yodel Le Pew",
+        "base": "Pepe Le Pew",
+        "rarity": "Rare",
+        "type": "Attacker",
+        "region": "Summit",
+        "desc": "This yodeler wears his enemies down with terrible singing, turning their strengths against them while shrugging off their critiques."
+    }, {
+        "name": "Yokai Taz",
+        "base": "Taz",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Forest",
+        "desc": "This spirit of destruction has been summoned from realms beyond to empower Monsters with Critical Damage."
+    }, {
+        "name": "Yosemite Sam",
+        "base": "Yosemite Sam",
+        "rarity": "Epic",
+        "type": "Attacker",
+        "region": "Desert",
+        "desc": "Selfish attacker. Deals high damage to enemies and removes attack bonuses from all characters."
+    }, {
+        "name": "Zombie Sam",
+        "base": "Sam Sheepdog",
+        "rarity": "Legendary",
+        "type": "Defender",
+        "region": "WB Studios",
+        "desc": "Consumed by an eternal rivalry, Sam rises from a shallow grave. It's time to clock in, after all, those sheep won't watch themselves."
+    }, {
+        "name": "Zoot Suit Daffy",
+        "base": "Daffy Duck",
+        "rarity": "Epic",
+        "type": "Support",
+        "region": "City",
+        "desc": "How different it was in my native village... Dodge Chance, Flip, the enemy team in Silence, their buffs removed... And then there was Stun... "
+    }
+]
